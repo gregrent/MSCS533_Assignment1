@@ -1,5 +1,5 @@
 {
-  "name": "assignment1",
+  "name": "Simple Unit Converter",
   "description": "A simple Flutter app to convert between metric and imperial units.",
   "version": "1.0.0+1",
   "environment": {
