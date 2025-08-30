@@ -1,0 +1,42 @@
+{
+  "name": "assignment1",
+  "description": "A simple Flutter app to convert between metric and imperial units.",
+  "version": "1.0.0+1",
+  "environment": {
+    "sdk": ">=3.9.0 <4.0.0"
+  },
+  "dependencies": {
+    "flutter": { "sdk": "flutter" },
+    "cupertino_icons": "^1.0.8"
+  },
+  "dev_dependencies": {
+    "flutter_test": { "sdk": "flutter" },
+    "flutter_lints": "^5.0.0"
+  },
+  "main": "lib/main.dart",
+  "test": ["test/widget_test.dart"],
+  "platforms": ["android", "ios", "web", "windows", "macos", "linux"],
+  "folders": [
+    "lib/",
+    "test/",
+    "android/",
+    "ios/",
+    "web/",
+    "windows/",
+    "macos/",
+    "linux/"
+  ],
+  "assets": {
+    "web/icons": [
+      "Icon-192.png",
+      "Icon-512.png",
+      "Icon-maskable-192.png",
+      "Icon-maskable-512.png"
+    ],
+    "web": [
+      "favicon.png",
+      "index.html",
+      "manifest.json"
+    ]
+  }
+}
